@@ -83,7 +83,7 @@ class MonologTarget extends PsrTarget
     /**
      * @var Logger|null $logger
      */
-    protected $logger;
+    protected ?LoggerInterface $logger;
 
     /**
      * @inheritdoc
